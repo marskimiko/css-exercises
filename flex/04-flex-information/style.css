@@ -18,6 +18,14 @@ img {
 .plant-container {
   display: flex;
   margin: 32px;
+  /* justify-content: center; */
+}
+
+.plant-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .plant-card .text {

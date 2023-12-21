@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,27 +11,30 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
+  margin-bottom: 32px;
+  /* display: flex;
   align-self: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .plant-container {
   display: flex;
-  margin: 32px;
-  /* justify-content: center; */
+  justify-content: center;
+  gap: 52px
+    /* margin: 32px; */
 }
 
 .plant-card {
-  display: flex;
+  max-width: 200px;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
-.plant-card .text {
+/* .plant-card .text {
   text-align: center;
-}
+} */
 
 
 /* do not edit this footer */
